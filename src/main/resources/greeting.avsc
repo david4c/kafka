@@ -1,0 +1,18 @@
+{
+  "namespace": "com.epam.avro",
+  "type": "record",
+  "name": "Greeting",
+  "fields": [
+    {
+      "name": "greet",
+      "type": "string"
+    },
+    {
+      "name": "time",
+      "type": [
+        "long",
+        "null"
+      ]
+    }
+  ]
+}
